@@ -27,4 +27,5 @@ Route::post('reservation/store/{trip}', 'ReservationController@store')->name('re
 Route::delete('reservation/{reservation}', 'ReservationController@destroy')->name('reservation.destroy');
 
 Route::get('notification/mark-as-read', 'NotificationController@markAsRead');
+Route::get('notification/mark-as-read', 'NotificationController@markAsRead');
 
